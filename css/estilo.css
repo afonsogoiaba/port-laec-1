@@ -1,0 +1,291 @@
+/******BASICO**********/
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+html{
+  background: white;
+}
+
+body{
+  background: #cacaca;
+  margin: 0 auto;
+  width: 940px;
+}
+
+/********MENU**********/
+
+header{
+  position: relative;
+}
+
+header nav{
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+nav li{
+  float: left;
+}
+
+nav a{
+  color: #00e0b7;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav ul{
+  list-style: none;
+}
+
+section{
+  position: relative;
+}
+
+nav a{
+  display: block;
+  font-size: 18px;
+  line-height: 70px;
+  padding-left: 30px;
+  text-transform: uppercase;
+}
+
+#caixa{
+  text-align: center;
+  border: 1px solid #00e0b7;
+  color:white;
+  width: 300px;
+  height:100px;
+  position: relative;
+  bottom: 320px;
+  left:34%;
+  text-transform: uppercase;
+}
+
+#caixa h1{
+  font-size: 32px;
+  letter-spacing: 2px;
+  margin-top: 15px;
+}
+
+#caixa h2{
+  font-weight: normal;
+  font-size: 22px;
+  letter-spacing: 3px;
+}
+
+#informacoes{
+  position: relative;
+}
+
+#informacoes #btn{
+  position: absolute;
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  width: 180px;
+  height: 40px;
+  border: 2px solid white;
+  left: 50px;
+  top: 270px;
+  background: #00e0b7;
+  font-weight: bold;
+  box-shadow: 3px 3px 0px white;
+  line-height: 40px;
+  -webkit-transition: all 0.3s ease 0s;
+     -moz-transition: all 0.3s ease 0s;
+      -ms-transition: all 0.3s ease 0s;
+       -o-transition: all 0.3s ease 0s;
+          transition: all 0.3s ease 0s;
+}
+
+#informacoes #btn:hover {
+  background: white;
+  color: #000;
+  box-shadow: none;
+  -webkit-transition: all 0.3s ease 0s;
+     -moz-transition: all 0.3s ease 0s;
+      -ms-transition: all 0.3s ease 0s;
+       -o-transition: all 0.3s ease 0s;
+          transition: all 0.3s ease 0s;
+}
+
+/******INTRODÇÃO - QUEM SOU EU**********/
+
+#sobre-mim{
+  position: relative;
+  bottom: 107px;
+  width: 100%;
+}
+
+#caixa-sobre{
+  position: relative;
+  top: 70px;
+}
+
+#sobre-mim h2{
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 1px;
+  font-size: 23px;
+  font-weight: normal;
+}
+
+#sobre-mim #texto{
+  width: 860px;
+  margin: 0 auto;
+  margin-top: 40px;
+  text-align: justify;
+  font-size: 20px;
+}
+
+#sobre-mim #frase{
+  margin-top: 80px;
+  text-align: center;
+  font-size: 19px;
+}
+
+#sobre-mim #texto b{
+  font-weight: normal;
+}
+
+/****TRABALHOS*****/
+
+#trabalhos{
+  position: relative;
+  bottom: 50px;
+}
+
+#trabalhos h2{
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  font-size: 23px;
+  font-weight: normal;
+}
+
+#trabalhos p{
+  text-align: justify;
+  width: 860px;
+  font-size: 20px;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 45px;
+}
+
+
+/*******CONTATO******/
+
+#contato p{
+  text-align: center;
+  color: white;
+  font-size: 22px;
+  position: relative;
+  bottom: 48px;
+}
+
+.gmail p{
+  text-align: center;
+  color: white;
+  font-size: 22px;
+  width: 240px;
+  left: 66px;
+  background: #e74132;
+}
+
+.instagram p{
+  font-size: 22px;
+  position: relative;
+  left: 66px;
+  width: 240px;
+  background: #cc2e95;
+}
+
+.facebook p{
+  font-size: 20px;
+  position: relative;
+  left: 61px;
+  width: 248px;
+  background: #004088;
+}
+
+#contato h2{
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  font-size: 23px;
+  font-weight: normal;
+}
+/* GRID */
+
+.linha{
+    overflow: hidden;
+}
+
+[class^="ocupa"]{
+    float: left;
+    height: 411px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.ocupa-1{
+    width: 60px; /* 1 * 60px + 0 * 20px */
+}
+
+.ocupad -2{
+    width: 140px; /* 2 * 60px + 1 * 20px */
+}
+
+.ocupa-3{
+    width: 220px; /* 3 * 60px + 2 * 20px */
+}
+
+.ocupa-4{
+    width: 300px; /* 4 * 60px + 3 * 20px */
+}
+
+.ocupa-5{
+    width: 380px; /* 5 * 60px + 4 * 20px */
+}
+
+.ocupa-6{
+    width: 460px; /* 6 * 60px + 5 * 20px */
+}
+
+.ocupa-7{
+    width: 540px; /* 7 * 60px + 6 * 20px */
+}
+
+.ocupa-8{
+    width: 620px; /* 8 * 60px + 7 * 20px */
+}
+
+.ocupa-9{
+    width: 700px; /* 9 * 60px + 8 * 20px */
+}
+
+.ocupa-10{
+    width: 780px; /* 10 * 60px + 9 * 20px */
+}
+
+.ocupa-11{
+    width: 860px; /* 11 * 60px + 10 * 20px */
+}
+
+.ocupa-12{
+    width: 940px;
+
+}
+
+.linha  :last-child{
+  margin-right: 0;
+}
